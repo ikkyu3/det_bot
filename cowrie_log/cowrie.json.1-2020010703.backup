@@ -1,0 +1,2 @@
+{"eventid":"cowrie.session.connect","src_ip":"118.71.4.0","src_port":56039,"dst_ip":"172.23.0.2","dst_port":23,"session":"09b1c1703048","protocol":"telnet","message":"New connection: 118.71.4.0:56039 (172.23.0.2:23) [session: 09b1c1703048]","sensor":"7d45656797f1","timestamp":"2019-12-28T12:53:20.403276Z"}
+{"eventid":"cowrie.session.closed","duration":30.807225942611694,"message":"Connection lost after 30 seconds","sensor":"7d45656797f1","timestamp":"2019-12-28T12:53:51.210336Z","src_ip":"118.71.4.0","session":"09b1c1703048"}
