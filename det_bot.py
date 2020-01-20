@@ -26,7 +26,7 @@ for root, dirs, files in os.walk(args.target):
                     pass
                 for data in row_list:
                     comm = data["timestamp"]
-                    comm = comm + "Z"
+                    #comm = comm + "Z"
                     datetime.datetime.strptime(comm, '%Y-%m-%dT%H:%M:%S.%fZ')
                     s_ip = data["src_ip"]
                     if s_ip not in t_list:
